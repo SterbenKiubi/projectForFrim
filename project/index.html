@@ -8,9 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header data-aos="zoom-in">
         <h2>
         <span>HELLO</span>
         <span>FRIM!</span>
@@ -22,7 +23,9 @@
     </main>
 
     <nav>
-        <div>
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"> 
             <div class="wrapper">
                 <div class="boximg">
                     <img src="img/Light_Build_Default.webp" alt="photo">
@@ -36,7 +39,9 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
             <div class="wrapper">
                 <div class="boximg">
                     <img src="img/Medium_Build_Default.webp" alt="photo">
@@ -50,7 +55,9 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
             <div class="wrapper">
                 <div class="boximg">
                     <img src="img/Heavy_Build_Default.webp" alt="photo">
@@ -65,7 +72,18 @@
             </div>
         </div>
     </nav>
-    
+    <footer>
+        <a data-aos="fade-up"
+        data-aos-duration="3000" class="footer-a" href="light.html">I choose Light!</a>
+        <a data-aos="fade-up"
+        data-aos-duration="3000" class="footer-a" href="medium.html">I choose Medium!</a>
+        <a data-aos="fade-up"
+        data-aos-duration="3000" class="footer-a" href="heavy.html">I choose Heavy!</a>
+    </footer>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

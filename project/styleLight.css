@@ -1,0 +1,56 @@
+body {
+    background-image: url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/12/best-light-gadgets-in-the-finals.jpg);
+    background-size: 100%;
+}
+.frim-photo {
+    position: absolute;
+    left: 875px;
+    top: 280px;
+    border-radius: 50%;
+
+    width: 120px;
+    height: 120px;
+}
+.heavy-man {
+    margin-top: 600px;
+    width: 300px;
+    height: 250px;
+}
+#bullet {
+    border-radius: 70px;
+    margin-bottom: 255px;
+    transform: rotate(-20deg);
+    width: 110px;
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+    margin-left: 80px;
+}
+.shooting-button {
+    height: 120px;
+    width: 200px;
+    position: absolute;
+    margin-left: 45%;
+}
+.u-missed {
+    position: absolute;
+    left: 42%;
+    width: 360px;
+    height: 170px;
+    color: blue;
+    font-size: 70px;
+    background-color: rgb(170, 92, 74);
+    display: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+.shoot-him {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    color: rgb(220, 223, 47);
+    font-size: 40px;
+    background-color: rgb(5, 5, 46);
+    border-radius: 15px;
+    padding: 10px;
+}
